@@ -1,12 +1,12 @@
 {
-    "name": "yourvendor/http-errors",
+    "name": "anthonymacs/http-errors",
     "description": "Beautiful, customizable HTTP error pages for Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com"
+            "name": "anthonymacs",
+            "email": "antoniomacasajr@email.com"
         }
     ],
     "require": {
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Yourvendor\\HttpErrors\\": "src/"
+            "Anthonymacs\\HttpErrors\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yourvendor\\HttpErrors\\HttpErrorsServiceProvider"
+                "Anthonymacs\\HttpErrors\\HttpErrorsServiceProvider"
             ]
         }
     },
