@@ -1,20 +1,20 @@
-# 🚨 Laravel HTTP Errors
+#  Laravel HTTP Errors
 
 Beautiful, customizable HTTP error pages for Laravel applications.
 Replace Laravel's default error screens with clean, user-friendly views — in seconds.
 ---
 
-## ✨ Features
+## Features
 
-- 🎨 Clean, modern error page designs
-- 📦 Drop-in install — zero configuration needed
-- ✏️ Fully publishable and customizable views
-- ⚡ Covers all common HTTP error codes
-- 🌙 Easy to style to match your app's branding
+- Clean, modern error page designs
+- Drop-in install — zero configuration needed
+- Fully publishable and customizable views
+- Covers all common HTTP error codes
+- Easy to style to match your app's branding
 
 ---
 
-## 📋 Included Error Pages
+##  Included Error Pages
 
 | Code | Description |
 |------|-------------|
@@ -29,7 +29,7 @@ Replace Laravel's default error screens with clean, user-friendly views — in s
 
 ---
 
-## 📦 Installation
+## Installation
 
 
 
@@ -40,7 +40,7 @@ composer require anthonymacs/http-errors dev-main
 
 ---
 
-## 🚀 Publish Error Views
+## Publish Error Views
 
 ```bash
 php artisan vendor:publish --tag=http-errors-views
